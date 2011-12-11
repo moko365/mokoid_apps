@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloIntentWallpaper!</string>
+    <string name="app_name">HelloIntentWallpaper</string>
+    <string name="set_wallpaper">選擇背景圖</string>
+</resources>

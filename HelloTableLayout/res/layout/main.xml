@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<TableRow>
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 		    
+		    android:text="www.androidin.com"
+		    android:padding="3dip"
+		    android:autoLink="web" />
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="www.google.com"
+		    android:autoLink="web" />
+	</TableRow>
+	
+	<TableRow>
+			<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 		    
+		    android:text="www.jollen.org"
+		    android:autoLink="web" />
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="www.moko365.com"
+		    android:autoLink="web" />
+	</TableRow>>
+
+</TableLayout>

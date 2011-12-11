@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloListView2!</string>
+    <string name="app_name">Hello, ListView2</string>
+    <string-array name="HelloListView2StringArray">
+        <item>www.moko365.com</item>
+        <item>www.google.com</item>
+        <item>www.jollen.org</item>
+    </string-array>
+</resources>

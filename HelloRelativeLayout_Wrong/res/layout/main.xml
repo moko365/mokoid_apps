@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView 
+ 		android:id="@+id/title"
+ 		android:textSize="24sp"
+ 		android:text="Relative Layout Wrong Demo"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content" 
+ 		/>
+<TextView  
+	android:id="@+id/year"
+	android:text="Year"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/title"
+    />
+<EditText
+	android:id="@+id/editYear"
+	android:width="100px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/year"
+    android:layout_alignBaseline="@id/year" 
+    />
+<TextView  
+	android:id="@+id/date"
+	android:text="Date"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/year"
+    />
+<EditText
+	android:id="@+id/editDate"
+	android:width="100px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/date" 
+    android:layout_alignBaseline="@id/date"
+    />
+<Button  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editDate" 
+    android:text="Save"
+    />
+</RelativeLayout>

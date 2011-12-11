@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">多國語系示範</string>
+    <string name="app_name">哈囉, 多國語系</string>
+</resources>
