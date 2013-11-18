@@ -7,7 +7,7 @@
 <TextView 
  		android:id="@+id/title"
  		android:textSize="24sp"
- 		android:text="Relative Layout Wrong Demo"
+ 		android:text="Relative Layout Demo"
  		android:layout_width="wrap_content"
  		android:layout_height="wrap_content" 
  		/>
@@ -23,8 +23,16 @@
 	android:width="100px"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_below="@id/title"
     android:layout_toRightOf="@id/year"
-    android:layout_alignBaseline="@id/year" 
+    />
+<EditText
+	android:id="@+id/editDate"
+	android:width="100px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editYear"
+    android:layout_alignRight="@id/editYear"
     />
 <TextView  
 	android:id="@+id/date"
@@ -32,19 +40,13 @@
     android:layout_width="wrap_content" 
     android:layout_height="wrap_content" 
     android:layout_below="@id/year"
-    />
-<EditText
-	android:id="@+id/editDate"
-	android:width="100px"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_toRightOf="@id/date" 
-    android:layout_alignBaseline="@id/date"
+    android:layout_alignBaseline="@id/editDate"
     />
 <Button  
     android:layout_width="wrap_content" 
     android:layout_height="wrap_content"
     android:layout_below="@id/editDate" 
+    android:layout_alignRight="@id/editDate"
     android:text="Save"
     />
 </RelativeLayout>

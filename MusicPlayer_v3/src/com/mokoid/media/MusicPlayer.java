@@ -87,7 +87,6 @@ public class MusicPlayer extends Activity implements View.OnClickListener {
 		mThread.start();
 	}
 
-	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.start:		        
